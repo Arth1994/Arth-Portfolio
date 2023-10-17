@@ -29,5 +29,3 @@ I'm always open to new opportunities, collaborations, and conversations. In the 
 
 Thank you for visiting my portfolio website. If you have any questions or would like to get in touch, don't hesitate to contact me. I look forward to connecting with you and exploring potential opportunities together.
 
-[Visit My Portfolio](#) https://arth1994.github.io/
-
