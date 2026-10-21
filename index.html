@@ -4,7 +4,7 @@
     <!-- Meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <title>Arth Shah — Senior Software Engineer</title>
+    <title>Arth Shah</title>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -84,32 +84,32 @@
             <a class="nav-link" href="#">Home</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#how-i-think">How I Think</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Portfolio</a>
+            <a class="nav-link" href="#writing">Writing</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#beyond">Beyond Work</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
         </li>
     </ul>
 </nav>
 
 
 
-<!-- Main Content -->
+<!-- Intro -->
 <div class="container">
-    <!-- Portfolio Heading -->
     <h1 class="mdc-typography--headline3" style="padding-bottom: 10px;">Arth Shah</h1>
-    <p class="mdc-typography--body2">Senior Software Engineer | Applied AI &amp; GenAI · Distributed Systems<br>Python · SQL · Kafka · Kubernetes · LLMs · MCP</p>
+    <p class="mdc-typography--body2">Senior Software Engineer at McDonald's · Princeton, New Jersey</p>
     <div class="mdc-layout-grid">
         <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
-            <!-- About Me Card -->
             <div class="mdc-card">
                 <div class="mdc-card__content">
-                    <h3 class="mdc-typography--headline5">About Me</h3>
                     <p class="mdc-typography--body2">
-                        Senior Software Engineer at McDonald's, working on distributed systems. Before that, five years building a rebate processing platform at Blackhawk Network. My current focus is applied AI — LLM applications and agents — on top of that distributed-systems foundation.
+                        GitHub has the code and LinkedIn has the career, so this page is for the rest: how I think about building software, what I've written, and what I'm doing when I'm not at a keyboard.
                     </p>
                 </div>
             </div>
@@ -117,46 +117,105 @@
     </div>
 </div>
 
-<!-- Projects -->
+<!-- How I Think -->
 <main id="main">
-    <div class="container">
+    <div class="container" id="how-i-think">
+        <h2 class="mdc-typography--headline4" style="padding: 10px 0;">How I Think</h2>
         <div class="row">
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-body">
-                        <!-- Project Details Card -->
-                        <h2 class="card-title">Floofie AI Travel Planner</h2>
+                        <h3 class="card-title">Start from the problem</h3>
                         <p class="pretty-paragraph">
-                            <strong>AI travel planning platform:</strong>
-                            <ul>
-                                <li>Itinerary generation with Gemini 2.0 Flash and structured prompts.</li>
-                                <li>JSON schema validation on LLM output, to keep responses consistent and handle hallucinations.</li>
-                                <li>Recommendation logic based on user behavior — collaborative and content-based filtering.</li>
-                                <li>Built with Next.js, TypeScript, and Firebase (Firestore, Authentication, Cloud Functions).</li>
-                            </ul>
+                            Before architecture, I want three things: who it's for, what constrains it, and the metric that will say it worked. Discovery and prioritization are engineering work — not paperwork that happens before it.
                         </p>
-                        <!-- Project Link -->
-                        <a href="https://github.com/Arth1994/floofie-ai-travel-planner" class="btn btn-primary">View on GitHub</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-body">
-                        <!-- Project Details Card -->
-                        <h2 class="card-title">RateGuard</h2>
+                        <h3 class="card-title">AI has to earn trust</h3>
                         <p class="pretty-paragraph">
-                            <strong>Distributed rate-limiting microservice:</strong>
+                            An AI feature isn't done when it demos well. It's done when its output is validated, its failures are measured, and a person can tell what it did and why. Most of my recent work lives in that gap between a good demo and a system you'd actually ship.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Depth underneath</h3>
+                        <p class="pretty-paragraph">
+                            The AI work sits on a distributed-systems and SQL foundation, and that's deliberate. When something breaks at scale, the foundation is what finds it — the model rarely is.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Write it down, teach it</h3>
+                        <p class="pretty-paragraph">
+                            I write up what I learn (one piece below) and run sessions helping other engineers adopt AI-assisted development. Explaining a thing is how I find out whether I actually understand it.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Writing -->
+    <div class="container" id="writing">
+        <h2 class="mdc-typography--headline4" style="padding: 10px 0;">Writing</h2>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">The Secret to Faster Migrations? AI, Pandas, and a Little Prompt Engineering</h3>
+                        <p class="pretty-paragraph">
+                            McDonald's Technical Blog · February 2026. How AI-generated pandas scripts cut a migration analysis from six weeks of manual work to two days — and what it took to trust the output.
+                        </p>
+                        <a href="https://medium.com/mcdonalds-technical-blog/the-secret-to-faster-migrations-ai-pandas-and-a-little-prompt-engineering-f1171a7623ce" class="btn btn-primary">Read the article</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Beyond Work -->
+    <div class="container" id="beyond">
+        <h2 class="mdc-typography--headline4" style="padding: 10px 0;">Beyond Work</h2>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="pretty-paragraph">
                             <ul>
-                                <li>Modular architecture with support for multiple rate limiting algorithms.</li>
-                                <li>Dynamic rate limiting configurations.</li>
-                                <li>Secure authentication and authorization mechanisms.</li>
-                                <li>Caching using Redis for improved response times.</li>
-                                <li>Monitoring and metrics to track rate limiting activity.</li>
+                                <li><strong>Tennis</strong> — the sport I plan trips around. I was at the 2026 US Open in person, and I follow Sabalenka, Alcaraz, and Shelton closer than is reasonable.</li>
+                                <li><strong>Soccer</strong> — Manchester United fan. It's character building.</li>
+                                <li><strong>Live music</strong> — concerts whenever someone worth seeing is within driving distance.</li>
+                                <li><strong>Food</strong> — strictly vegetarian; Indian and Thai are home turf. New Kathiyawadi Dhaba and Mitr Thai are the current champions.</li>
+                                <li><strong>Television</strong> — the classic Taarak Mehta Ka Ooltah Chashmah story arcs are elite TV, and I will not be taking questions.</li>
                             </ul>
                         </p>
-                        <!-- Project Link -->
-                        <a href="https://github.com/Arth1994/rateguard" class="btn btn-primary">View on GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- The Code -->
+    <div class="container">
+        <h2 class="mdc-typography--headline4" style="padding: 10px 0;">The Code</h2>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="pretty-paragraph">
+                            Projects live on GitHub, not here — currently <a href="https://github.com/Arth1994/floofie-ai-travel-planner">Floofie</a>, an AI travel planner, and <a href="https://github.com/Arth1994/rateguard">RateGuard</a>, a distributed rate-limiting service. The older experiments are archived there too, for the curious.
+                        </p>
+                        <a href="https://github.com/Arth1994" class="btn btn-primary">github.com/Arth1994</a>
                     </div>
                 </div>
             </div>
@@ -165,7 +224,7 @@
 </main>
 
 <!-- Footer -->
-<footer style="background-color: #1976D2; color: #fff; padding: 20px;">
+<footer id="contact" style="background-color: #1976D2; color: #fff; padding: 20px;">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
